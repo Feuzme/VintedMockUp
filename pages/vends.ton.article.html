@@ -11,21 +11,21 @@
     <h1> Vends ton article </h1>
     <div>
     <!-- -------------- -->
-        <form action="/ma-page-de-traitement" method="post">
-            <div>
-                <label for="Titre"> Titre </label>
-                <input type="text" id="Titre" name="Titre">
+        <form action="vends.ton.article.html">
+            <div class="titre">
+                <div>
+                    <label for="Titre"> Titre </label>
+                    <input type="text" id="Titre" name="Titre">
+                </div>
+                <div>
+                    <label for="Décris ton article"> Décris ton article </label>
+                    <input type="Décris ton article" id="Décris ton article" name="Décris ton article">
+                </div> 
             </div>
-            <div>
-                <label for="Décris ton article"> Décris ton article </label>
-                <input type="Décris ton article" id="Décris ton article" name="Décris ton article">
-            </div>
-        </form>
-    <!-- ------------------ -->
 
-    
-                <form action="/ma-page-de-traitement" method="post">
-            <div>
+        <!-- ------------------ -->   
+           <div class="titre">
+             <div>
                 <label for="Catégorie"> Catégorie </label>
                 <input type="text" id="Catégorie" name="Catégorie">
             </div>
@@ -37,19 +37,22 @@
                 <label for="Etat"> Etat </label>
                 <input type="Etat" id="Etat" name="Etat">
             </div>
+            </div>
             <!--        -->
-
-
-            <!--  -->
             <div>
+            <div class="titre">
                 <label for="Prix"> Prix </label>
                 <input type="Prix" id="Prix" name="Prix">
             </div>
+            </div>
+            <div>
+                <div class="titre">
+                    <button type="submit"> Ajouter </button>
+                </div>
+            </div>
         </form>
      <!-------------- --> 
-        <div class="button">
-            <button type="submit"> Ajouter </button>
-        </div>
+
     </div>  
 </body>
 </html>
