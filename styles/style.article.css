@@ -1,9 +1,17 @@
-.pics img{
-    display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 20%;
+.pics {
+    display: flex;
+    flex-direction: row;
+    width: 85%;
 }
+.miniPic{    
+    display: flex;
+    flex-direction: column;  
+    width: 20%;   
+}
+img{
+    margin: 1px;
+}
+
 img.mainPic {    
     width: 40%;
 }
