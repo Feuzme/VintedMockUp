@@ -4,9 +4,77 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/style.vends.css">
     <title> Vinted |Achète, vends ou échange les vêtements, chaussures et ... </title>
 </head>
 <body>
+    <h1> Vends ton article </h1>
+    <div>
     
+        <form action="vends.ton.article.html">
+            <div class="titre">
+                <div>
+                    <label for="Titre"> Titre </label>
+                    <input type="text" id="Titre" name="Titre">
+                </div>
+                <div>
+                    <label for="Décris ton article"> Décris ton article </label>
+                    <input type="Décris ton article" id="Décris ton article" name="Décris ton article">
+                </div> 
+            </div>
+  
+           <div class="titre">
+             <div>
+                <label for="Catégorie"> Catégorie </label>
+                <select name="catégorie" id="catégorie-select">
+                    <option value=""> selectionne une catégorie </option>
+                    <option value="femmes"> Femmes </option>
+                    <option value="hommes"> Hommes </option>
+                    <option value="enfants"> Enfants </option>
+                    <option value="maison"> Maison </option>
+                </select>
+            </div>
+            <div>
+                <label for="marque"> Marque </label>
+                <select name="marque" id="marque-select">
+                    <option value=""> selectionne la marque </option>
+                    <option value="kiabi"> Kiabi </option>
+                    <option value="zara"> Zara </option>
+                    <option value="h&m"> H&M </option>
+                    <option value="orchestra"> Orchestra </option>
+                </select>
+              
+            </div>
+            <div>
+                <label for="Etat"> Etat </label>
+                <select name="etat" id="etat-select">
+                    <option value=""> indique l'etat de ton article </option>
+                    <option value="neufavecetiquette"> Neuf avec l'étiquette </option>
+                    <option value="neufpasetiquette"> Neuf sans étiquette </option>
+                    <option value="tresbonetat"> Très bon état </option>
+                    <option value="bonetat"> Bon état</option>
+                </select>
+            </div>
+            </div>
+            <!--  -->
+           
+
+
+              <!--  -->
+            <div>
+            <div class="titre">
+                <label for="Prix"> Prix </label>
+                <input type="Prix" id="Prix" name="Prix">
+            </div>
+            </div>
+
+            <div>
+                <div class="titre">
+                    <button type="submit"> Ajouter </button>
+                </div>
+            </div>
+        </form>
+
+    </div>  
 </body>
 </html>
