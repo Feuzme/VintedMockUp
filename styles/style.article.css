@@ -1,0 +1,9 @@
+.pics img{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+img.mainPic {    
+    width: 40%;
+}
