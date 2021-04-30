@@ -1,12 +1,22 @@
+.pageContent {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 85%;
+    margin: 0 auto;
+}
 .pics {
     display: flex;
     flex-direction: row;
-    width: 85%;
+    width: 70%;
 }
 .miniPic{    
     display: flex;
     flex-direction: column;  
     width: 20%;   
+}
+.miniPics:hover {
+    
 }
 img{
     margin: 1px;
@@ -14,4 +24,11 @@ img{
 
 img.mainPic {    
     width: 40%;
+}
+.productDetails{
+    width: 30%;
+}
+.clientProtection{
+    display: flex;
+    flex-direction: row;
 }
