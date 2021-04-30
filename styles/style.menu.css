@@ -1,0 +1,120 @@
+#accueil{
+    margin-right:48px;
+}
+
+#menu1{
+    display: flex;
+}
+
+#menu2{
+    display: flex;
+}
+
+#div-dropdown{
+    display:flex;
+}
+
+#div-dropdown1{
+    border-right:1px solid rgba(17,17,17,0.08);
+}
+
+#navbarDropdown{
+    color:gray;
+}
+
+.category{
+    display:flex;
+    margin:1em;
+}
+
+svg{
+    width:100%;
+    fill:#09B1BA;
+}
+
+#grpmenu{
+    font-family: "Maison Neue", "Helvetica Neue", "Helvetica-Neue", "Arial", sans-serif ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#signup{
+    font-size:12px;
+    line-height:16px;
+    padding:0 8px;
+    border-radius:15%;
+}
+
+#sell{
+    font-size:12px;
+    line-height:16px;
+    padding:0 8px;
+    border-radius:15%;
+}
+
+#searchbar{
+    display:flex;
+    margin-right:48px;
+}
+
+#signup{
+    margin-top: 6px;
+    margin-right:18px;
+	box-shadow: 3px 4px 0px 0px #899599;
+	background-color:transparent;
+	border-radius:8px;
+	border:1px solid #09b1ba;
+	display:inline-block;
+	cursor:pointer;
+	color:#09b1ba;
+	font-family:"Maison Neue", "Helvetica Neue", "Helvetica-Neue", "Arial", sans-serif;
+	font-size: 0.8rem;
+	padding:7px 25px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #e1e2ed;
+    height:min-content;
+}
+
+#sell{
+    margin-top: 6px;
+    margin-right:18px;
+	box-shadow: 3px 4px 0px 0px #899599;
+	background-color:transparent;
+	border-radius:8px;
+	border:1px solid #09b1ba;
+	display:inline-block;
+	cursor:pointer;
+    color:white;
+	background-color:#09b1ba;
+	font-family:"Maison Neue", "Helvetica Neue", "Helvetica-Neue", "Arial", sans-serif;
+	font-size: 0.8rem;
+	padding:7px 25px;
+    height:min-content;
+}
+
+.custom-select{
+    margin-top: 6px;
+    border-radius:6px;
+    height:34px;
+}
+
+#barrerecherche{
+    margin-top: 6px;
+    background-color:lightgray;
+    border-radius:6px;
+    height:34px;
+    background: url(../assets/images/search.svg.png) no-repeat scroll 7px 7px;
+    padding-left:30px;
+    width:250px;
+}
+
+.custom-select2{
+    border:transparent;
+    color:gray;
+}
+
+#imghelp{
+    display:flex;
+    align-items:center;
+}
