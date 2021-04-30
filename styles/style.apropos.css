@@ -1,19 +1,44 @@
+#contenuPage{
+    background-color:rgb(235, 237, 238);
+    padding-top:50px;
+}
 
-
-h1 {
+h3 {
     text-align: center;
-    font-size: 25px;
-    color: darkslategray;
+    color: dark;
+    margin-left:10px;
+    margin-right:10px;
 }
 
-h2 {
+h4 {
     text-align: left;
-    font-size: 16px;
     color: darkslategray;
+    text-decoration: underline;
+    margin-left:10px;
+    margin-right:10px;
 }
-/* 
-   body {
-    background-color: darkkhaki;
-} 
-*/
  
+#textPage{
+    background-color:white;
+    width: 60%;
+    display:flex;
+    flex-direction: column;
+    margin:0 auto;
+    padding:20px;
+}
+
+p{
+    color:rgb(102, 102, 102);
+    font-size:12px;
+    text-align:justify;
+    margin-left:10px;
+    margin-right:10px;
+}
+
+li{
+    color:rgb(102, 102, 102);
+    font-size:12px;
+    text-align:justify;
+    margin-left:10px;
+    margin-right:10px;
+}
