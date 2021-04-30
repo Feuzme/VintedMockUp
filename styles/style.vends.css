@@ -1,4 +1,5 @@
 
+
 h1 {
     text-align: left;
     font-size: 25px;
@@ -21,5 +22,20 @@ form {
 .titre{
     margin: 1em;
     width: 100%;
+    background-color: white;
+  
+}
+ 
+}
+input{
+   
+margin-left: 250px;
+}
+select{
+    margin-left: 250px;
+}
+.boutton{
+    margin: 1em;
+    width: 0%;
     background-color: white;
 }
