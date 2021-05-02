@@ -1,0 +1,21 @@
+.imgbackground{
+    position: relative;
+}
+
+#banniere{
+    width: 100%;
+}
+
+#divImg{
+    background-color:white;
+    float: left;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    z-index: 1000;
+    padding:30px;
+}
+
+#howto{
+    color:#09b1ba;
+}
